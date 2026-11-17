@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "414144943487",
+    "project_id": "christian-ai-app",
+    "storage_bucket": "christian-ai-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414144943487:android:f8dbae434f41c75b88364a",
+        "android_client_info": {
+          "package_name": "ai.christian.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414144943487-6kk0t8q46o2p4t20r158a812npae5qps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1eYyy9OSN8qgkztHktS_gjV4hth25UNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414144943487-6kk0t8q46o2p4t20r158a812npae5qps.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "414144943487-rqhkfs9js6c5gb4rfuu3hduh81thc1h3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dev.davinchi.slovo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414144943487:android:c82a47f5fb742c3f88364a",
+        "android_client_info": {
+          "package_name": "dev.davinchi.slovo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414144943487-6kk0t8q46o2p4t20r158a812npae5qps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1eYyy9OSN8qgkztHktS_gjV4hth25UNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414144943487-6kk0t8q46o2p4t20r158a812npae5qps.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "414144943487-rqhkfs9js6c5gb4rfuu3hduh81thc1h3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dev.davinchi.slovo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

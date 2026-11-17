@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Christian AI | DaVinchi Dev</title>
+  <meta name="description" content="Privacy Policy for the Christian AI mobile app: data we collect, AI and text-to-speech providers, retention, deletion and consent withdrawal.">
+  <link rel="canonical" href="https://davinchi.dev/apps/christian-ai/privacy.html">
+  <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png">
+  <meta name="theme-color" content="#C5F135">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --lime: #C5F135; --text: #141414; --muted: #555; --border: #e5e5e5; --soft: #f7f8f2; }
+    body { font-family: Inter, system-ui, sans-serif; color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 3rem 1.5rem 5rem; }
+    h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 700; line-height: 1.2; margin-bottom: .4rem; }
+    .meta { color: var(--muted); font-size: .9rem; margin-bottom: 1.5rem; }
+    h2 { font-size: 1.25rem; margin: 2rem 0 .7rem; color: #2a2a2a; }
+    h3 { font-size: 1.02rem; margin: 1.35rem 0 .45rem; color: #2a2a2a; }
+    p, li { color: var(--muted); font-size: .95rem; margin-bottom: .75rem; }
+    ul { padding-left: 1.25rem; margin-bottom: 1rem; }
+    li { margin-bottom: .35rem; }
+    a { color: #5a7a00; }
+    .back { display: inline-block; margin-bottom: 1.5rem; color: #5a7a00; text-decoration: none; font-weight: 500; }
+    .back:hover { text-decoration: underline; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+    .lang-nav { display: flex; gap: .75rem; flex-wrap: wrap; margin: 0 0 1.5rem; }
+    .lang-nav a { border: 1px solid var(--border); border-radius: 999px; padding: .35rem .8rem; text-decoration: none; font-size: .9rem; }
+    .summary { background: var(--soft); border: 1px solid var(--border); border-radius: 14px; padding: 1rem 1.15rem; margin: 1.25rem 0 1.75rem; }
+    .summary p:last-child { margin-bottom: 0; }
+    .note { background: #fffbea; border-left: 4px solid #d4a900; padding: .8rem 1rem; border-radius: 0 10px 10px 0; margin: 1rem 0 1.25rem; }
+    .note p:last-child { margin-bottom: 0; }
+    .muted { font-size: .88rem; color: var(--muted); }
+    .ru { margin-top: 2.5rem; }
+    .ru h1 { font-size: clamp(1.6rem, 3.5vw, 2.2rem); }
+    @media (max-width: 520px) { .wrap { padding: 2rem 1.1rem 4rem; } }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <a class="back" href="https://davinchi.dev/">← DaVinchi Dev</a>
+    <h1>Privacy Policy — Christian AI</h1>
+    <p class="meta">Last updated: October 19, 2026 · Effective: October 19, 2026 · Publisher: DaVinchi Dev (DAVINCHI DEV INC., New York, USA) · Contact: <a href="mailto:info@davinchi.dev">info@davinchi.dev</a></p>
+    <nav class="lang-nav" aria-label="Language">
+      <a href="#en">English</a>
+      <a href="#ru" lang="ru">Русский</a>
+    </nav>
+
+    <section id="en" lang="en">
+      <div class="summary">
+        <p><strong>Short version.</strong> We use <strong>Firebase (Google)</strong> for sign-in, cloud sync, push notifications and crash diagnostics; <strong>Google Gemini API</strong> for AI answers and prayer generation; <strong>ElevenLabs</strong> for text-to-speech; and <strong>Cloudflare Workers</strong> as a request proxy. We ask for your permission before sending content to AI or text-to-speech. We do not sell personal data, use it for advertising, or track you across apps or websites.</p>
+        <p>Please do not enter your name, contact details, medical information, or other sensitive data into AI prompts unless you are willing to send it to the providers listed below.</p>
+      </div>
+
+      <p>This Privacy Policy explains how <strong>DaVinchi Dev</strong> (legal name: <strong>DAVINCHI DEV INC.</strong>, New York, USA) processes personal data in the mobile app <strong>Christian AI</strong> for iOS and Android. It applies to the app, not to the davinchi.dev website, which has its own privacy policy.</p>
+      <p>For privacy questions or requests, contact <a href="mailto:info@davinchi.dev">info@davinchi.dev</a>.</p>
+
+      <h2>1. Who is responsible for your data</h2>
+      <p>The data controller is DaVinchi Dev / DAVINCHI DEV INC., New York, USA. We are responsible for the processing described in this Policy. Our providers process data on our behalf or as independent controllers as described below.</p>
+      <p>Where required by law, we rely on: (a) your consent for AI and text-to-speech processing, religious-belief data, and push notifications; (b) performance of a contract to provide the app; (c) our legitimate interests in security, debugging and improving the app; and (d) compliance with legal obligations. You can withdraw consent at any time as described in section 9.</p>
+
+      <h2>2. Data we collect</h2>
+
+      <h3>2.1 Account and authentication data</h3>
+      <ul>
+        <li><strong>Account data:</strong> your email address, display name, Firebase user ID, sign-in provider (Apple or Google), and authentication metadata, if you create an account or sign in.</li>
+        <li><strong>Guest session:</strong> guest mode does not require registration. When you use AI or text-to-speech as a guest, we create an anonymous Firebase session with a random user ID so that requests can be authenticated. It is not linked to your name or email unless you later sign in.</li>
+      </ul>
+
+      <h3>2.2 Religious preferences and settings</h3>
+      <ul>
+        <li><strong>Tradition:</strong> Orthodox, Catholic, exploring Christianity, or undecided. This is information about your religious or philosophical beliefs. We store it only if you give separate consent for sensitive data.</li>
+        <li><strong>Other settings:</strong> region, language, theme, reminder times, notification preferences, selected voice, and app-lock settings.</li>
+      </ul>
+
+      <h3>2.3 Content you create</h3>
+      <ul>
+        <li><strong>AI content:</strong> your questions, the current AI conversation (including your messages and the assistant's previous answers), AI-generated prayers, and ratings you give to answers.</li>
+        <li><strong>Prayers and notes:</strong> prayers you create or save, favorite prayers, prayer practices, and notes.</li>
+        <li><strong>Journal and confession list:</strong> journal entries and the list you prepare for confession. These are stored in the device's secure storage. The confession list is stored only on your device and is not synced. Journal entries may be synced to your account if you sign in.</li>
+        <li><strong>Reading data:</strong> reading progress, bookmarks, and the last-read position.</li>
+      </ul>
+
+      <h3>2.4 Voice input</h3>
+      <p>If you use the microphone, your speech is converted to text by the speech-recognition service provided by your device platform (Apple on iOS, Google on Android). Depending on your device, language and offline model availability, audio may be processed on the device or sent to Apple or Google. We do not store audio recordings in the app; we receive the recognized text and use it as your input.</p>
+
+      <h3>2.5 Technical, notification and diagnostic data</h3>
+      <ul>
+        <li><strong>Device and app data:</strong> device type, operating system, app version, language, and general technical information.</li>
+        <li><strong>Push data:</strong> Firebase Cloud Messaging (FCM) token, platform, and topic subscriptions (for example, region and tradition) if notifications are enabled.</li>
+        <li><strong>Diagnostics:</strong> crash logs, stack traces, performance data, error messages and related diagnostic information collected by Firebase Crashlytics.</li>
+        <li><strong>Network data:</strong> IP address, request time, and request metadata processed by our hosting and proxy providers when the app communicates with our servers.</li>
+      </ul>
+
+      <h3>2.6 Support communications</h3>
+      <p>If you contact us by email or Telegram, we process your contact details, message, and any information you choose to provide so that we can answer you.</p>
+
+      <h2>3. How we collect data</h2>
+      <ul>
+        <li><strong>Directly from you:</strong> when you create an account, type a question, create a prayer or note, record voice input, or contact support.</li>
+        <li><strong>Automatically:</strong> when the app authenticates you, syncs data, sends notifications, or records a crash.</li>
+        <li><strong>From sign-in providers:</strong> Apple or Google may provide your name, email address, and provider identifier when you choose that sign-in method.</li>
+        <li><strong>From your device platform:</strong> speech recognition converts your voice into text.</li>
+      </ul>
+
+      <h2>4. Why we use your data</h2>
+      <ul>
+        <li>To provide the app's core features: Bible reading, prayers, AI answers, prayer generation, verse explanations and text-to-speech.</li>
+        <li>To authenticate you and, if you sign in, sync your data across devices.</li>
+        <li>To personalize content according to the tradition you choose, only with your separate consent for sensitive data.</li>
+        <li>To send morning and evening reminders and other notifications, only if you enable them.</li>
+        <li>To keep the app secure, prevent abuse, debug errors and diagnose crashes.</li>
+        <li>To comply with applicable law and respond to lawful requests.</li>
+      </ul>
+      <p>We do not use your data for advertising, do not sell it, and do not use it to track you across apps or websites.</p>
+
+      <h2>5. AI features: what is sent and to whom</h2>
+      <p>When you use the AI assistant, prayer generator, or verse explanation, the app sends the following content through our Cloudflare Workers proxy to <strong>Google LLC (Gemini API)</strong>:</p>
+      <ul>
+        <li>the text of your question;</li>
+        <li>the current conversation, including your previous messages and the assistant's previous answers;</li>
+        <li>the tradition you selected, if you consented to store it, and the system instructions needed to generate an answer in that tradition;</li>
+        <li>for prayer generation: the selected occasion and any description you enter;</li>
+        <li>for verse explanation: the Bible reference and verse text you ask about;</li>
+        <li>technical request metadata, such as the time of the request and the app version.</li>
+      </ul>
+      <p>We do not add your account name, email address, or contacts to AI prompts. However, anything you type into the question or description field may be sent to Google. Do not enter personal or sensitive information that you do not want to disclose.</p>
+      <p>Google processes AI prompts and responses under the <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener noreferrer">Gemini API Additional Terms</a> and, where applicable, the Google Data Processing Addendum. We do not use your prompts or responses to train our own models. Retention and use by Google are governed by Google's terms and settings for the Gemini API project; we do not control Google's independent retention for abuse monitoring and legal compliance.</p>
+
+      <h2>6. Text-to-speech: what is sent and to whom</h2>
+      <p>When you use the “Listen” feature, the app sends the text you chose to play, a voice identifier and a model identifier through our proxy to <strong>ElevenLabs</strong> so that it can generate audio. Do not use “Listen” for text containing personal or sensitive information that you do not want to disclose.</p>
+      <p>ElevenLabs processes the text under its own terms and privacy policy. Audio files generated for you are cached on your device; we do not store the audio on our servers. Retention by ElevenLabs is governed by ElevenLabs' terms and the settings of our account.</p>
+
+      <h2>7. Who we share data with</h2>
+      <p>We do not sell personal data. We share it only with the providers needed to operate the app:</p>
+      <ul>
+        <li><strong>Google LLC — Firebase Authentication, Cloud Firestore, Firebase Cloud Messaging and Firebase Crashlytics.</strong> Data: account identifiers, email address, display name, synced app content, tradition (with consent), FCM token and topic subscriptions, and crash diagnostics. Purpose: sign-in, cloud sync, push notifications, crash reporting and security.</li>
+        <li><strong>Google LLC — Gemini API.</strong> Data: AI prompts and responses, selected tradition, prayer occasion and description, and verse text. Purpose: generating AI answers, prayers and explanations.</li>
+        <li><strong>Eleven Labs Inc. — ElevenLabs.</strong> Data: text to be voiced, voice identifier, model identifier and request metadata. Purpose: generating audio.</li>
+        <li><strong>Cloudflare, Inc. — Cloudflare Workers.</strong> Data: the request body, Firebase ID token, IP address and request metadata. Purpose: authenticating requests, routing them to the AI or text-to-speech provider, and protecting the service. Our proxy code does not intentionally persist request bodies; Cloudflare processes request metadata under its terms.</li>
+        <li><strong>Apple Inc.</strong> Data: Sign in with Apple credentials, speech-recognition data if iOS processes your voice, and App Store transaction data. Purpose: sign-in, voice recognition and app distribution.</li>
+      </ul>
+      <p>We may also disclose data if required by law, to protect our rights or the safety of users, or in connection with a merger or sale of the business, subject to appropriate safeguards and notice. We require our processors to protect personal data under written agreements and applicable data protection terms. These agreements and terms provide a level of protection equivalent to this Policy.</p>
+
+      <h2>8. International transfers</h2>
+      <p>Our providers are located in the United States and may process data in other countries. Where required, we rely on appropriate safeguards such as standard contractual clauses and data processing agreements. You can contact us for more information about the safeguards used for your data.</p>
+
+      <h2>9. Retention, deletion and withdrawal of consent</h2>
+      <ul>
+        <li><strong>Local data:</strong> stored on your device until you delete it in the app or uninstall the app.</li>
+        <li><strong>Cloud data:</strong> stored in Cloud Firestore until you delete your account or request deletion. Backup copies may remain for a limited period.</li>
+        <li><strong>Push data:</strong> the FCM token and topic subscriptions are kept until you sign out, disable notifications, uninstall the app or delete your account.</li>
+        <li><strong>Crash and diagnostic data:</strong> retained for the period configured in our Firebase project, after which it is deleted or aggregated.</li>
+        <li><strong>AI and text-to-speech data:</strong> processed by Google and ElevenLabs under their terms. We do not store AI prompts or generated audio on our proxy servers.</li>
+        <li><strong>Support communications:</strong> retained for as long as needed to resolve your request and comply with legal obligations.</li>
+      </ul>
+      <p><strong>Withdraw AI/TTS consent:</strong> open Settings → Privacy and turn off the AI/voiceover permission. This stops future requests, but does not delete data that was already sent to Google or ElevenLabs. You can also contact us to request deletion.</p>
+      <p><strong>Withdraw sensitive-data consent:</strong> turn off “Store my tradition” in Settings → Privacy, change your tradition, or contact us. If you withdraw consent, we will stop using your tradition to personalize the app and will delete it from cloud storage where required.</p>
+      <p><strong>Export:</strong> use Settings → Export my data.</p>
+      <p><strong>Delete:</strong> use Settings → Delete account (for signed-in users) or Settings → Delete my data (for guests). Deleting your account deletes your Firebase Authentication account and Cloud Firestore data. Some data may remain in backups and provider logs for the periods described above.</p>
+
+      <h2>10. Your rights</h2>
+      <p>Depending on where you live, you may have the right to access, correct, export, delete, restrict or object to the processing of your personal data, and to withdraw consent. You can exercise these rights in the app or by contacting <a href="mailto:info@davinchi.dev">info@davinchi.dev</a>. You may also complain to your local data protection authority.</p>
+      <p>If you are a California resident, we do not sell or share personal information for cross-context behavioral advertising. If you are in the EEA or UK, our legal bases are described in section 1.</p>
+
+      <h2>11. Security</h2>
+      <p>We use HTTPS/TLS for network connections, Firebase security rules that restrict each user to their own data, and the device's Keychain or Keystore for sensitive local data. We limit access to personal data to what is needed to operate the app. No method of transmission or storage is completely secure, so we cannot guarantee absolute security.</p>
+
+      <h2>12. Children</h2>
+      <p>The app is not directed to children under 13 without parental involvement. We do not knowingly collect personal data from children under 13. If you believe a child has provided us with personal data, contact us and we will delete it.</p>
+
+      <h2>13. Changes to this Policy</h2>
+      <p>We may update this Policy from time to time. We will post the new version at this URL and update the date above. If changes are material, we will provide notice in the app or by email where appropriate. Continued use of the app after the effective date means you accept the updated Policy.</p>
+
+      <h2>14. Contact</h2>
+      <ul>
+        <li>Privacy: <a href="mailto:info@davinchi.dev">info@davinchi.dev</a></li>
+        <li>Website: <a href="https://davinchi.dev/">davinchi.dev</a></li>
+        <li>Terms of Use: <a href="https://davinchi.dev/apps/christian-ai/terms.html">davinchi.dev/apps/christian-ai/terms.html</a></li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <section id="ru" class="ru" lang="ru">
+      <h1>Политика конфиденциальности — Christian AI</h1>
+      <p class="meta">Обновлено: 19 октября 2026 г. · Вступает в силу: 19 октября 2026 г. · Издатель: DaVinchi Dev (DAVINCHI DEV INC., Нью-Йорк, США) · Контакт: <a href="mailto:info@davinchi.dev">info@davinchi.dev</a></p>
+
+      <div class="summary">
+        <p><strong>Коротко.</strong> Для входа, синхронизации, push-уведомлений и диагностики мы используем <strong>Firebase (Google)</strong>; для AI-ответов и генерации молитв — <strong>Google Gemini API</strong>; для озвучки — <strong>ElevenLabs</strong>; для проксирования запросов — <strong>Cloudflare Workers</strong>. Перед отправкой данных в AI и озвучку мы спрашиваем ваше разрешение. Мы не продаём персональные данные, не используем их для рекламы и не отслеживаем вас между приложениями и сайтами.</p>
+        <p>Не вводите в AI-запросы имя, контакты, медицинские сведения и другие чувствительные данные, если не готовы передать их перечисленным ниже провайдерам.</p>
+      </div>
+
+      <p>Настоящая Политика конфиденциальности описывает, как <strong>DaVinchi Dev</strong> (юридическое лицо: <strong>DAVINCHI DEV INC.</strong>, Нью-Йорк, США) обрабатывает персональные данные в мобильном приложении <strong>Christian AI</strong> для iOS и Android. Политика относится к приложению, а не к сайту davinchi.dev, у которого есть отдельная политика.</p>
+      <p>По вопросам конфиденциальности и запросам пишите на <a href="mailto:info@davinchi.dev">info@davinchi.dev</a>.</p>
+
+      <h2>1. Кто отвечает за данные</h2>
+      <p>Контролёр данных — DaVinchi Dev / DAVINCHI DEV INC., Нью-Йорк, США. Мы отвечаем за обработку, описанную в этой Политике. Провайдеры обрабатывают данные по нашему поручению или как самостоятельные контролёры в случаях, описанных ниже.</p>
+      <p>Где этого требует закон, мы опираемся на: (а) ваше согласие на обработку данных в AI и озвучке, данных о религиозных взглядах и push-уведомления; (б) исполнение договора для предоставления приложения; (в) наши законные интересы в области безопасности, отладки и улучшения приложения; (г) соблюдение юридических обязанностей. Согласие можно отозвать в любое время способом, указанным в разделе 9.</p>
+
+      <h2>2. Какие данные мы собираем</h2>
+
+      <h3>2.1 Аккаунт и аутентификация</h3>
+      <ul>
+        <li><strong>Данные аккаунта:</strong> email, отображаемое имя, Firebase user ID, способ входа (Apple или Google) и метаданные аутентификации — если вы создаёте аккаунт или входите.</li>
+        <li><strong>Гостевая сессия:</strong> гостевой режим не требует регистрации. При использовании AI или озвучки без входа мы создаём анонимную сессию Firebase со случайным user ID, чтобы авторизовать запросы. Она не связывается с вашим именем или email, пока вы не войдёте.</li>
+      </ul>
+
+      <h3>2.2 Религиозные предпочтения и настройки</h3>
+      <ul>
+        <li><strong>Традиция:</strong> православие, католицизм, изучение христианства или «пока не определился». Это сведения о религиозных или философских убеждениях. Мы храним их только при наличии отдельного согласия на обработку особой категории данных.</li>
+        <li><strong>Другие настройки:</strong> регион, язык, тема, время напоминаний, настройки уведомлений, выбранный голос и блокировка приложения.</li>
+      </ul>
+
+      <h3>2.3 Контент, который вы создаёте</h3>
+      <ul>
+        <li><strong>AI-контент:</strong> вопросы, текущая беседа с AI (включая ваши сообщения и предыдущие ответы помощника), сгенерированные молитвы и оценки ответов.</li>
+        <li><strong>Молитвы и заметки:</strong> созданные и сохранённые молитвы, избранные молитвы, практики и заметки.</li>
+        <li><strong>Дневник и список к исповеди:</strong> записи дневника и список, который вы готовите к исповеди. Они хранятся в защищённом хранилище устройства. Список к исповеди хранится только на устройстве и не синхронизируется. Записи дневника могут синхронизироваться с аккаунтом после входа.</li>
+        <li><strong>Данные чтения:</strong> прогресс чтения, закладки и последняя прочитанная позиция.</li>
+      </ul>
+
+      <h3>2.4 Голосовой ввод</h3>
+      <p>Если вы используете микрофон, речь преобразуется в текст сервисом распознавания вашей платформы (Apple на iOS, Google на Android). В зависимости от устройства, языка и наличия офлайн-модели аудио может обрабатываться на устройстве или передаваться Apple или Google. Мы не храним аудиозаписи в приложении; мы получаем распознанный текст и используем его как ваш ввод.</p>
+
+      <h3>2.5 Технические данные, уведомления и диагностика</h3>
+      <ul>
+        <li><strong>Данные устройства и приложения:</strong> тип устройства, операционная система, версия приложения, язык и общая техническая информация.</li>
+        <li><strong>Push-данные:</strong> токен Firebase Cloud Messaging (FCM), платформа и подписки на темы (например, регион и традиция), если уведомления включены.</li>
+        <li><strong>Диагностика:</strong> журналы сбоев, стек-трейсы, данные о производительности, сообщения об ошибках и связанная диагностическая информация Firebase Crashlytics.</li>
+        <li><strong>Сетевые данные:</strong> IP-адрес, время запроса и метаданные запроса, которые обрабатываются нашими провайдерами хостинга и прокси при обращении приложения к нашим серверам.</li>
+      </ul>
+
+      <h3>2.6 Обращения в поддержку</h3>
+      <p>Если вы пишете нам по email или в Telegram, мы обрабатываем ваши контактные данные, сообщение и любую информацию, которую вы решите предоставить, чтобы ответить вам.</p>
+
+      <h2>3. Как мы собираем данные</h2>
+      <ul>
+        <li><strong>Напрямую от вас:</strong> при создании аккаунта, вводе вопроса, создании молитвы или заметки, голосовом вводе или обращении в поддержку.</li>
+        <li><strong>Автоматически:</strong> при аутентификации, синхронизации, отправке уведомлений или фиксации сбоя.</li>
+        <li><strong>От провайдеров входа:</strong> Apple или Google могут передать имя, email и идентификатор провайдера, если вы выбрали такой способ входа.</li>
+        <li><strong>От платформы устройства:</strong> сервис распознавания речи преобразует голос в текст.</li>
+      </ul>
+
+      <h2>4. Для чего мы используем данные</h2>
+      <ul>
+        <li>Для основных функций приложения: чтения Библии, молитв, AI-ответов, генерации молитв, объяснения стихов и озвучки.</li>
+        <li>Для аутентификации и, после входа, синхронизации данных между устройствами.</li>
+        <li>Для персонализации в соответствии с выбранной традицией — только при отдельном согласии на обработку особой категории данных.</li>
+        <li>Для утренних и вечерних напоминаний и других уведомлений — только если вы их включили.</li>
+        <li>Для безопасности, предотвращения злоупотреблений, отладки и диагностики сбоев.</li>
+        <li>Для соблюдения применимого законодательства и ответов на законные запросы.</li>
+      </ul>
+      <p>Мы не используем данные для рекламы, не продаём их и не отслеживаем вас между приложениями и сайтами.</p>
+
+      <h2>5. AI-функции: что и кому отправляется</h2>
+      <p>При использовании AI-помощника, генератора молитв или объяснения стиха приложение через наш прокси Cloudflare Workers отправляет в <strong>Google LLC (Gemini API)</strong>:</p>
+      <ul>
+        <li>текст вашего вопроса;</li>
+        <li>текущую беседу, включая ваши предыдущие сообщения и предыдущие ответы помощника;</li>
+        <li>выбранную традицию, если вы дали согласие на её хранение, и системные инструкции, необходимые для ответа в этой традиции;</li>
+        <li>для генерации молитвы — выбранный повод и введённое вами описание;</li>
+        <li>для объяснения стиха — ссылку на стих и его текст;</li>
+        <li>технические метаданные запроса, например время запроса и версию приложения.</li>
+      </ul>
+      <p>Мы не добавляем в AI-запросы имя аккаунта, email или контакты. Однако всё, что вы введёте в поле вопроса или описания, может быть отправлено в Google. Не вводите личные и чувствительные данные, которые не хотите раскрывать.</p>
+      <p>Google обрабатывает AI-запросы и ответы в соответствии с <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener noreferrer">Дополнительными условиями Gemini API</a> и, где применимо, DPA Google. Мы не используем ваши запросы и ответы для обучения собственных моделей. Хранение и использование данных Google регулируются условиями и настройками проекта Gemini API; мы не контролируем самостоятельное хранение Google для предотвращения злоупотреблений и соблюдения закона.</p>
+
+      <h2>6. Озвучка: что и кому отправляется</h2>
+      <p>При использовании функции «Слушать» приложение через прокси отправляет в <strong>ElevenLabs</strong> текст для озвучивания, идентификатор голоса и идентификатор модели, чтобы сгенерировать аудио. Не озвучивайте текст с личными или чувствительными данными, которые не хотите раскрывать.</p>
+      <p>ElevenLabs обрабатывает текст в соответствии со своими условиями и политикой конфиденциальности. Сгенерированные аудиофайлы кэшируются на вашем устройстве; мы не храним аудио на наших серверах. Хранение данных ElevenLabs регулируется условиями ElevenLabs и настройками нашего аккаунта.</p>
+
+      <h2>7. Кому мы передаём данные</h2>
+      <p>Мы не продаём персональные данные. Мы передаём их только провайдерам, необходимым для работы приложения:</p>
+      <ul>
+        <li><strong>Google LLC — Firebase Authentication, Cloud Firestore, Firebase Cloud Messaging и Firebase Crashlytics.</strong> Данные: идентификаторы аккаунта, email, отображаемое имя, синхронизированный контент, традиция (при согласии), FCM-токен и подписки на темы, диагностика сбоев. Цель: вход, облачная синхронизация, push-уведомления, отчёты о сбоях и безопасность.</li>
+        <li><strong>Google LLC — Gemini API.</strong> Данные: AI-запросы и ответы, выбранная традиция, повод и описание молитвы, текст стиха. Цель: генерация AI-ответов, молитв и объяснений.</li>
+        <li><strong>Eleven Labs Inc. — ElevenLabs.</strong> Данные: текст для озвучивания, идентификатор голоса, идентификатор модели и метаданные запроса. Цель: генерация аудио.</li>
+        <li><strong>Cloudflare, Inc. — Cloudflare Workers.</strong> Данные: тело запроса, Firebase ID-токен, IP-адрес и метаданные запроса. Цель: аутентификация запросов, маршрутизация к AI или сервису озвучки и защита сервиса. Код прокси не сохраняет тело запросов намеренно; Cloudflare обрабатывает метаданные запросов по своим условиям.</li>
+        <li><strong>Apple Inc.</strong> Данные: учётные данные Sign in with Apple, данные распознавания речи при обработке на iOS и данные App Store. Цель: вход, распознавание речи и распространение приложения.</li>
+      </ul>
+      <p>Мы также можем раскрыть данные, если этого требует закон, для защиты наших прав или безопасности пользователей, либо в связи со слиянием или продажей бизнеса — при наличии надлежащих гарантий и уведомления. Мы требуем от обработчиков защищать персональные данные по письменным договорам и применимым условиям защиты данных. Эти договоры и условия обеспечивают уровень защиты, эквивалентный настоящей Политике.</p>
+
+      <h2>8. Международная передача</h2>
+      <p>Наши провайдеры находятся в США и могут обрабатывать данные в других странах. Где требуется, мы используем надлежащие гарантии, например стандартные договорные условия и соглашения об обработке данных. Вы можете связаться с нами, чтобы узнать больше о гарантиях для ваших данных.</p>
+
+      <h2>9. Хранение, удаление и отзыв согласия</h2>
+      <ul>
+        <li><strong>Локальные данные:</strong> хранятся на устройстве, пока вы не удалите их в приложении или не удалите приложение.</li>
+        <li><strong>Облачные данные:</strong> хранятся в Cloud Firestore, пока вы не удалите аккаунт или не запросите удаление. Резервные копии могут сохраняться ограниченное время.</li>
+        <li><strong>Push-данные:</strong> FCM-токен и подписки на темы хранятся до выхода из аккаунта, отключения уведомлений, удаления приложения или аккаунта.</li>
+        <li><strong>Данные о сбоях и диагностика:</strong> хранятся в течение срока, настроенного в нашем проекте Firebase, после чего удаляются или агрегируются.</li>
+        <li><strong>AI и озвучка:</strong> обрабатываются Google и ElevenLabs по их условиям. Мы не храним AI-запросы и сгенерированное аудио на наших прокси-серверах.</li>
+        <li><strong>Обращения в поддержку:</strong> хранятся столько, сколько нужно для решения запроса и соблюдения закона.</li>
+      </ul>
+      <p><strong>Отзыв согласия на AI/озвучку:</strong> откройте «Настройки» → «Конфиденциальность» и отключите разрешение на AI/озвучку. Это остановит будущие запросы, но не удалит данные, уже отправленные в Google или ElevenLabs. Вы также можете связаться с нами для запроса удаления.</p>
+      <p><strong>Отзыв согласия на особую категорию данных:</strong> отключите «Хранить традицию» в «Настройках» → «Конфиденциальность», измените традицию или свяжитесь с нами. После отзыва мы прекратим использовать традицию для персонализации и удалим её из облака, где это требуется.</p>
+      <p><strong>Экспорт:</strong> «Настройки» → «Экспорт моих данных».</p>
+      <p><strong>Удаление:</strong> «Настройки» → «Удалить аккаунт» (для вошедших) или «Удалить мои данные» (для гостя). Удаление аккаунта удаляет аккаунт Firebase Authentication и данные Cloud Firestore. Часть данных может оставаться в резервных копиях и журналах провайдеров в течение сроков, указанных выше.</p>
+
+      <h2>10. Ваши права</h2>
+      <p>В зависимости от страны проживания вы можете иметь право на доступ, исправление, экспорт, удаление, ограничение обработки, возражение против обработки и отзыв согласия. Вы можете реализовать эти права в приложении или написав на <a href="mailto:info@davinchi.dev">info@davinchi.dev</a>. Вы также можете обратиться с жалобой в местный орган по защите данных.</p>
+      <p>Для жителей Калифорнии: мы не продаём персональную информацию и не передаём её для кросс-контекстной поведенческой рекламы. Для EEA и Великобритании правовые основания описаны в разделе 1.</p>
+
+      <h2>11. Безопасность</h2>
+      <p>Мы используем HTTPS/TLS для сетевых соединений, правила безопасности Firebase, ограничивающие каждого пользователя его собственными данными, и Keychain или Keystore для чувствительных локальных данных. Доступ к персональным данным ограничен тем, что необходимо для работы приложения. Ни один способ передачи или хранения не является абсолютно безопасным, поэтому мы не можем гарантировать полную безопасность.</p>
+
+      <h2>12. Дети</h2>
+      <p>Приложение не предназначено для детей младше 13 лет без участия родителей. Мы сознательно не собираем персональные данные детей младше 13 лет. Если вы считаете, что ребёнок предоставил нам персональные данные, свяжитесь с нами, и мы их удалим.</p>
+
+      <h2>13. Изменения Политики</h2>
+      <p>Мы можем периодически обновлять эту Политику. Новая версия будет опубликована по этому URL с обновлённой датой. О существенных изменениях мы уведомим в приложении или по email, где это уместно. Продолжение использования приложения после даты вступления в силу означает принятие обновлённой Политики.</p>
+
+      <h2>14. Контакты</h2>
+      <ul>
+        <li>Конфиденциальность: <a href="mailto:info@davinchi.dev">info@davinchi.dev</a></li>
+        <li>Сайт: <a href="https://davinchi.dev/">davinchi.dev</a></li>
+        <li>Условия использования: <a href="https://davinchi.dev/apps/christian-ai/terms.html">davinchi.dev/apps/christian-ai/terms.html</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

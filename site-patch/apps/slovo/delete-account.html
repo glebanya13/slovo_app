@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delete account and data — Слово (Slovo) | DaVinchi Dev</title>
+  <meta name="description" content="How to delete your Слово (Slovo) account and data: delete in the app, or request deletion by email without reinstalling the app.">
+  <link rel="canonical" href="https://davinchi.dev/apps/slovo/delete-account.html">
+  <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png">
+  <meta name="theme-color" content="#C5F135">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --lime: #C5F135; --text: #141414; --muted: #555; --border: #e5e5e5; --soft: #f7f8f2; }
+    body { font-family: Inter, system-ui, sans-serif; color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 3rem 1.5rem 5rem; }
+    h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 700; line-height: 1.2; margin-bottom: .4rem; }
+    .meta { color: var(--muted); font-size: .9rem; margin-bottom: 1.5rem; }
+    h2 { font-size: 1.25rem; margin: 2rem 0 .7rem; color: #2a2a2a; }
+    p, li { color: var(--muted); font-size: .95rem; margin-bottom: .75rem; }
+    ul, ol { padding-left: 1.25rem; margin-bottom: 1rem; }
+    li { margin-bottom: .35rem; }
+    a { color: #5a7a00; }
+    .back { display: inline-block; margin-bottom: 1.5rem; color: #5a7a00; text-decoration: none; font-weight: 500; }
+    .back:hover { text-decoration: underline; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+    .lang-nav { display: flex; gap: .75rem; flex-wrap: wrap; margin: 0 0 1.5rem; }
+    .lang-nav a { border: 1px solid var(--border); border-radius: 999px; padding: .35rem .8rem; text-decoration: none; font-size: .9rem; }
+    .summary { background: var(--soft); border: 1px solid var(--border); border-radius: 14px; padding: 1rem 1.15rem; margin: 1.25rem 0 1.75rem; }
+    .summary p:last-child { margin-bottom: 0; }
+    .muted { font-size: .88rem; color: var(--muted); }
+    .ru { margin-top: 2.5rem; }
+    .ru h1 { font-size: clamp(1.6rem, 3.5vw, 2.2rem); }
+    @media (max-width: 520px) { .wrap { padding: 2rem 1.1rem 4rem; } }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <a class="back" href="https://davinchi.dev/">← DaVinchi Dev</a>
+    <h1>Delete account and data — Слово (Slovo)</h1>
+    <p class="meta">Publisher: DaVinchi Dev (DAVINCHI DEV INC., New York, USA) · Contact: <a href="mailto:info@davinchi.dev">info@davinchi.dev</a> · <a href="https://davinchi.dev/apps/slovo/privacy.html">Privacy Policy</a></p>
+    <nav class="lang-nav" aria-label="Language">
+      <a href="#en">English</a>
+      <a href="#ru" lang="ru">Русский</a>
+    </nav>
+
+    <section id="en" lang="en">
+      <div class="summary">
+        <p><strong>Fastest way:</strong> in the app open <strong>Settings → Account → Delete account</strong>. This deletes your account and cloud data immediately. You can also request deletion by email at <a href="mailto:info@davinchi.dev?subject=Delete%20account%20—%20Slovo">info@davinchi.dev</a> — no app reinstall needed.</p>
+      </div>
+
+      <h2>1. What gets deleted</h2>
+      <p>When your account is deleted, we delete:</p>
+      <ul>
+        <li>your account in Firebase Authentication (email address, display name, sign-in identifiers);</li>
+        <li>your Cloud Firestore data: your profile, practices, journal, saved and favorite prayers, Bible bookmarks and reading progress;</li>
+        <li>your Firebase Cloud Messaging (push notification) token and topic subscriptions.</li>
+      </ul>
+      <p>Data stored only on your device (for example, the confession list) is removed when you uninstall the app or use in-app deletion.</p>
+
+      <h2>2. Delete in the app</h2>
+      <ol>
+        <li>Open the app and go to <strong>Settings → Account</strong>.</li>
+        <li>Tap <strong>Delete account</strong> and confirm.</li>
+        <li>For signed-in users this may ask you to re-enter your credentials once for security.</li>
+      </ol>
+      <p>Guests (no account) can delete locally stored data with <strong>Settings → Delete my data</strong>.</p>
+
+      <h2>3. Request deletion by email (web)</h2>
+      <p>If you no longer have the app installed, request deletion without reinstalling it:</p>
+      <ol>
+        <li>Email <a href="mailto:info@davinchi.dev?subject=Delete%20account%20—%20Slovo">info@davinchi.dev</a> with the subject “Delete account — Slovo”.</li>
+        <li>Write from the email address linked to your account, or include that address (or your Google/Apple account email) so we can identify the account.</li>
+        <li>We verify the request and delete the account and its data within <strong>30 days</strong>, and confirm by email.</li>
+      </ol>
+
+      <h2>4. What may remain after deletion</h2>
+      <p>Some data may remain for a limited time for security and legal reasons, as described in the <a href="https://davinchi.dev/apps/slovo/privacy.html">Privacy Policy</a>, section 9: backup copies, crash logs retained in our Firebase project for its configured period, and technical logs kept by our providers (Google, ElevenLabs, Cloudflare) under their own terms.</p>
+
+      <h2>5. Questions</h2>
+      <p>For any questions about deletion, contact <a href="mailto:info@davinchi.dev">info@davinchi.dev</a>.</p>
+    </section>
+
+    <hr>
+
+    <section id="ru" class="ru" lang="ru">
+      <h1>Удаление аккаунта и данных — «Слово» (Slovo)</h1>
+      <p class="meta">Издатель: DaVinchi Dev (DAVINCHI DEV INC., Нью-Йорк, США) · Контакт: <a href="mailto:info@davinchi.dev">info@davinchi.dev</a> · <a href="https://davinchi.dev/apps/slovo/privacy.html">Политика конфиденциальности</a></p>
+
+      <div class="summary">
+        <p><strong>Самый быстрый способ:</strong> в приложении откройте <strong>«Настройки» → «Аккаунт» → «Удалить аккаунт»</strong> — аккаунт и облачные данные удаляются сразу. Также можно запросить удаление письмом на <a href="mailto:info@davinchi.dev?subject=Delete%20account%20—%20Slovo">info@davinchi.dev</a> — переустанавливать приложение не нужно.</p>
+      </div>
+
+      <h2>1. Что удаляется</h2>
+      <p>При удалении аккаунта мы удаляем:</p>
+      <ul>
+        <li>аккаунт в Firebase Authentication (email, отображаемое имя, идентификаторы входа);</li>
+        <li>данные в Cloud Firestore: профиль, практики, дневник, сохранённые и избранные молитвы, закладки и прогресс чтения Библии;</li>
+        <li>токен Firebase Cloud Messaging (push-уведомлений) и подписки на темы.</li>
+      </ul>
+      <p>Данные, которые хранятся только на устройстве (например, список к исповеди), удаляются при удалении приложения или при удалении данных в приложении.</p>
+
+      <h2>2. Удаление в приложении</h2>
+      <ol>
+        <li>Откройте приложение и перейдите в <strong>«Настройки» → «Аккаунт»</strong>.</li>
+        <li>Нажмите <strong>«Удалить аккаунт»</strong> и подтвердите.</li>
+        <li>Для вошедших пользователей может однократно потребоваться повторный вход — это мера безопасности.</li>
+      </ol>
+      <p>Гостям (без аккаунта) доступно удаление локальных данных: <strong>«Настройки» → «Удалить мои данные»</strong>.</p>
+
+      <h2>3. Запрос удаления по email (через веб)</h2>
+      <p>Если приложение уже не установлено, запросить удаление можно без переустановки:</p>
+      <ol>
+        <li>Напишите на <a href="mailto:info@davinchi.dev?subject=Delete%20account%20—%20Slovo">info@davinchi.dev</a> с темой «Удаление аккаунта — Слово».</li>
+        <li>Отправьте письмо с адреса, привязанного к аккаунту, или укажите его в письме (а также email аккаунта Google/Apple), чтобы мы могли найти аккаунт.</li>
+        <li>Мы проверим запрос и удалим аккаунт с данными в течение <strong>30 дней</strong> и подтвердим ответным письмом.</li>
+      </ol>
+
+      <h2>4. Что может остаться после удаления</h2>
+      <p>Часть данных может сохраняться ограниченное время по соображениям безопасности и согласно закону — см. <a href="https://davinchi.dev/apps/slovo/privacy.html">Политику конфиденциальности</a>, раздел 9: резервные копии, журналы сбоев в нашем проекте Firebase в течение настроенного срока и технические журналы провайдеров (Google, ElevenLabs, Cloudflare) по их собственным условиям.</p>
+
+      <h2>5. Вопросы</h2>
+      <p>По любым вопросам об удалении пишите на <a href="mailto:info@davinchi.dev">info@davinchi.dev</a>.</p>
+    </section>
+  </main>
+</body>
+</html>

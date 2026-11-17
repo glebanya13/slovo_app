@@ -1,0 +1,9 @@
+name = "slovo-api"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+
+# После первого deploy: npx wrangler secret put GEMINI_API_KEY
+#                        npx wrangler secret put ELEVENLABS_API_KEY
+
+[vars]
+FIREBASE_PROJECT_ID = "christian-ai-app"
